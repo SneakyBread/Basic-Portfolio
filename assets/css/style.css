@@ -9,7 +9,6 @@ https://www.w3schools.com/Css/tryit.asp?filename=trycss_link
 }
 
 header {
-    /*test*/
     width: 960px;
     margin-left: auto;
     margin-right: auto;
@@ -28,7 +27,6 @@ header {
     float: left;
     padding: 20px;
     margin: auto;
-
 }
 
 #Nav {
@@ -36,18 +34,19 @@ header {
 }
 
 .ParaBox {
-    width: 960px;
+    width: 920px;
     background-color: #ffffff;
     border: solid;
     border-color: #dddddd;
     overflow: auto;
     margin: auto;
+    padding: 0px 20px 30px 20px;
 }
 
 .SubHeading {
     color: #4aaaa5;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-    padding-left: 2.5%;
+    /* padding-left: 2.5%; */
 }
 
 
@@ -57,8 +56,6 @@ header {
     width: 250px;
     height: 180px;
     float: left;
-    margin-left: 2.5%;
-
     opacity: .5;
 }
 
@@ -71,99 +68,60 @@ p {
     
 }
 
-#Line {
+/* #Line {
     width: 95%;
-}
+} */
 
-.PortfolioBox {
-    width: 960px;
+.BigPortfolioBox {
+    width: 920px;
     background-color: #ffffff;
     border: solid;
     border-color: #dddddd;
     overflow: auto;
     margin: auto;
     position: relative;
+    padding: 0px 20px 30px 20px;
 }
 
-.HangmanBox {
-    border: solid;
+.TheGoods {
     position: relative;
-    text-align: center;
     float: left;
-    margin: 0px 30px 0px 20px;
-    top: -20px;
+    padding: 20px 20px 20px 20px;
 }
 
-.Hangman {
-    text-align: center;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    font-weight: lighter;
-    color: white;
-    background-color: #4aaaa5;
-    position: sticky;
-    top: 25%;
-    padding: 15px 0px 15px;
-    margin: 5px 0px 10px;
-}
-
-.RPGBox {
-    width: 340px;
-    overflow: auto;
-    border: solid;
-    position: relative;
-    text-align: center;
-    /* float: right; */
-    margin: -20px 0px 0px 0px;
-}
-
-.RPG_game {
-    text-align: center;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    font-weight: lighter;
-    color: white;
-    background-color: #4aaaa5;
-    position: sticky;
-    top: 78%;
-    padding: 15px 0px 15px;
-    margin: 5px 0px 10px;
-}
-
-.TriviaBox {
-    border: solid;
-    width: 340px;
-    /* position: relative; */
-    text-align: center;
-    /* float: left; */
-    margin: 0px 30px 0px 20px;
-    top: -20px;
-}
-
-.Trivia {
-    text-align: center;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    font-weight: lighter;
-    color: white;
-    background-color: #4aaaa5;
-    /* position: sticky; */
-    padding: 15px 0px 15px;
-    margin: 5px 0px 10px;
-}
-
-
-.PortfolioImgs {
+.TheGoods img {
     width: 340px;
     height: 200px;
 }
-/*
-.Portfolios {
+
+.TheGoods h4 {
+    position: absolute;
+    text-align: center;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     font-weight: lighter;
     color: white;
     background-color: #4aaaa5;
-    position: absolute;
-    z-index: 2;
-} 
-*/
+    padding: 15px 0px 15px;
+    width: 340px;
+    bottom: 15px;
+}
+
+.ContactBox {
+    width: 920px;
+    background-color: #ffffff;
+    border: solid;
+    border-color: #dddddd;
+    overflow: auto;
+    margin: auto;
+    position: relative;
+    padding: 0px 20px 30px 20px;
+}
+
+form {
+
+}
+
+
 
 
 footer {
@@ -174,3 +132,89 @@ footer {
     padding: 2% 40% 0.5%;
     margin-top: 70px;
 }
+
+/* Old box holding hangman stuff */
+/* .HangmanBox {
+    border: solid;
+    position: relative;
+    text-align: center;
+    float: left;
+    margin: 0px 30px 0px 20px;
+    top: -20px;
+} */
+
+/* .Hangman {
+    text-align: center;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-weight: lighter;
+    color: white;
+    background-color: #4aaaa5;
+    position: sticky;
+    top: 25%;
+    padding: 15px 0px 15px;
+    margin: 5px 0px 10px;
+} */
+
+/* Old box holding RPG game stuff */
+/* .RPGBox {
+    width: 340px;
+    overflow: auto;
+    border: solid;
+    position: relative;
+    text-align: center;
+    float: right; 
+    margin: -20px 0px 0px 0px;
+} */
+
+
+/* .RPG_game {
+    text-align: center;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-weight: lighter;
+    color: white;
+    background-color: #4aaaa5;
+    position: sticky;
+    top: 78%;
+    padding: 15px 0px 15px;
+    margin: 5px 0px 10px;
+} */
+
+/* Old box holding trivia stuff */
+/* .TriviaBox {
+    border: solid;
+    width: 340px;
+    position: relative;
+    text-align: center;
+    float: left;
+    margin: 0px 30px 0px 20px;
+    top: -20px;
+} */
+
+
+/* .Trivia {
+    text-align: center;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-weight: lighter;
+    color: white;
+    background-color: #4aaaa5;
+    position: sticky; 
+    padding: 15px 0px 15px;
+    margin: 5px 0px 10px;
+} */
+
+
+/* .PortfolioImgs {
+    width: 340px;
+    height: 200px;
+} */
+
+/*
+.Portfolios {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-weight: lighter;
+    color: white;
+    background-color: #4aaaa5;
+    position: absolute;
+    z-index: 2;
+} 
+*/
